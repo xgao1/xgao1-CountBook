@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:scrollbars="horizontal"
+        android:hint="Name:"
+        android:layout_height="51dp" />
+    <EditText
+        android:id="@+id/eintvalue"
+        android:layout_width="match_parent"
+        android:scrollbars="horizontal"
+        android:hint="Invitual Value:"
+        android:layout_height="51dp" />
+    <EditText
+        android:id="@+id/ecurvalue"
+        android:layout_width="match_parent"
+        android:scrollbars="horizontal"
+        android:hint="Current Value:"
+        android:layout_height="51dp" />
+    <EditText
+        android:id="@+id/ecomment"
+        android:layout_width="match_parent"
+        android:scrollbars="horizontal"
+        android:hint="Comment:"
+        android:layout_height="51dp" />
+    <Button
+        android:id="@+id/esaveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/ereBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+    <Button
+        android:id="@+id/plusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="increase" />
+    <Button
+        android:id="@+id/minusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="decrease" />
+
+</LinearLayout>
